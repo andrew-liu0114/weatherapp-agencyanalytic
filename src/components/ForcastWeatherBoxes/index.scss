@@ -1,0 +1,17 @@
+@import "../../styles/global";
+@import "../../styles/variables";
+
+.forcast-wrapper {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  background-color: $basic-white;
+  gap: 0.3rem;
+
+  div:first-child {
+    border-radius: 0 0 0 0.7rem;
+  }
+
+  div:last-child {
+    border-radius: 0 0 0.7rem 0;
+  }
+}

@@ -1,0 +1,19 @@
+* {
+  box-sizing: border-box;
+}
+
+#root {
+  height: 100vh;
+}
+
+input[type*="radio"] {
+  display: none;
+}
+
+h1 {
+  margin: 0;
+}
+
+p {
+  margin: 0;
+}

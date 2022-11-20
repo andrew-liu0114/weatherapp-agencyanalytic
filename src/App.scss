@@ -1,0 +1,21 @@
+@import "./styles/global";
+@import "./styles/variables";
+
+.container {
+  height: 100%;
+  background-color: $basic-background;
+
+  &__content {
+    width: 60rem;
+    margin: auto;
+  }
+
+  &__weather {
+    display: grid;
+    gap: 0.3rem;
+    padding: 0.3rem;
+    background: $basic-white;
+    border-radius: 1rem;
+    box-shadow: 0px 20px 30px #ddd;
+  }
+}
